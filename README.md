@@ -1,5 +1,6 @@
 # SwiftUITutorial
 Learning Swift UI
-
-![White](/WelcomePrompt/Screenshots/1.png  =200x)
-![Dark](/WelcomePrompt/Screenshots/2.png  =200x)
+<div>
+<img src="/WelcomePrompt/Screenshots/1.png" width=420>
+<img src="/WelcomePrompt/Screenshots/2.png" width=420>
+</div>
