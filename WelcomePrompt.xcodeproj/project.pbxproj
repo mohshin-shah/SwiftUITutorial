@@ -18,8 +18,9 @@
 		FBE2B8DB2463E87A00B4AFCB /* OnboadingActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE2B8DA2463E87A00B4AFCB /* OnboadingActionView.swift */; };
 		FBE2B8DD2463ED8800B4AFCB /* OnboardingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE2B8DC2463ED8800B4AFCB /* OnboardingListView.swift */; };
 		FBE2B8DF2463FA2B00B4AFCB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE2B8DE2463FA2B00B4AFCB /* MainView.swift */; };
-		FBE2B8E32464112300B4AFCB /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-05-07 at 17.40.15.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE2B8E12464112300B4AFCB /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-05-07 at 17.40.15.png */; };
-		FBE2B8E42464112300B4AFCB /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-05-07 at 17.48.55.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE2B8E22464112300B4AFCB /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-05-07 at 17.48.55.png */; };
+		FBE2B8E32464112300B4AFCB /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE2B8E12464112300B4AFCB /* 2.png */; };
+		FBE2B8E42464112300B4AFCB /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE2B8E22464112300B4AFCB /* 1.png */; };
+		FBE2B8E62464116400B4AFCB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FBE2B8E52464116400B4AFCB /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,8 +37,9 @@
 		FBE2B8DA2463E87A00B4AFCB /* OnboadingActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboadingActionView.swift; sourceTree = "<group>"; };
 		FBE2B8DC2463ED8800B4AFCB /* OnboardingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingListView.swift; sourceTree = "<group>"; };
 		FBE2B8DE2463FA2B00B4AFCB /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		FBE2B8E12464112300B4AFCB /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-05-07 at 17.40.15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 11 Pro Max - 2020-05-07 at 17.40.15.png"; sourceTree = "<group>"; };
-		FBE2B8E22464112300B4AFCB /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-05-07 at 17.48.55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 11 Pro Max - 2020-05-07 at 17.48.55.png"; sourceTree = "<group>"; };
+		FBE2B8E12464112300B4AFCB /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		FBE2B8E22464112300B4AFCB /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		FBE2B8E52464116400B4AFCB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		FBE2B8B62463DDF300B4AFCB = {
 			isa = PBXGroup;
 			children = (
+				FBE2B8E52464116400B4AFCB /* README.md */,
 				FBE2B8C12463DDF300B4AFCB /* WelcomePrompt */,
 				FBE2B8C02463DDF300B4AFCB /* Products */,
 			);
@@ -98,8 +101,8 @@
 		FBE2B8E02464112300B4AFCB /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
-				FBE2B8E12464112300B4AFCB /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-05-07 at 17.40.15.png */,
-				FBE2B8E22464112300B4AFCB /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-05-07 at 17.48.55.png */,
+				FBE2B8E12464112300B4AFCB /* 2.png */,
+				FBE2B8E22464112300B4AFCB /* 1.png */,
 			);
 			path = Screenshots;
 			sourceTree = "<group>";
@@ -162,10 +165,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBE2B8E62464116400B4AFCB /* README.md in Resources */,
 				FBE2B8CF2463DDF400B4AFCB /* LaunchScreen.storyboard in Resources */,
 				FBE2B8CC2463DDF400B4AFCB /* Preview Assets.xcassets in Resources */,
-				FBE2B8E32464112300B4AFCB /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-05-07 at 17.40.15.png in Resources */,
-				FBE2B8E42464112300B4AFCB /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-05-07 at 17.48.55.png in Resources */,
+				FBE2B8E32464112300B4AFCB /* 2.png in Resources */,
+				FBE2B8E42464112300B4AFCB /* 1.png in Resources */,
 				FBE2B8C92463DDF400B4AFCB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
