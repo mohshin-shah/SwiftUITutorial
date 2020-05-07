@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct OnboardingView: View {
-    
+    var tintColor: Color = .blue
     var title: String = ""
     var onboardingItems: [Onboarding] = []
     var actionItem: (title: String, action: () -> Void) = ("", {})
@@ -19,9 +19,9 @@ struct OnboardingView: View {
             Spacer(minLength: 50)
             Text(title)
                 .font(.title)
-            OnboardingListView(onboardingItems: onboardingItems)
+            OnboardingListView(onboardingItems: onboardingItems, tintColor: tintColor)
             Spacer()
-            OnboadingActionView(title: actionItem.title, action: actionItem.action)
+            OnboadingActionView(title: actionItem.title, action: actionItem.action, tintColor: tintColor)
             Spacer(minLength: 50)
         }
     }

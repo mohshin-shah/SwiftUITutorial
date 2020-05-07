@@ -11,12 +11,12 @@ import SwiftUI
 struct OnboadingActionView: View {
     let title: String
     var action: () -> Void = {}
-    
+    var tintColor: Color = .blue
     var body: some View {
         Button(action: action) {
             Text(title)
                 .padding(EdgeInsets.init(top: 10, leading: 50, bottom: 10, trailing: 50))
-            .background(Color.blue)
+            .background(tintColor)
             .foregroundColor(.white)
                 .font(.system(size: 18, weight: .semibold))
             .fixedSize()

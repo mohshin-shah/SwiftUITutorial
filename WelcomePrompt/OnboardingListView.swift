@@ -10,10 +10,11 @@ import SwiftUI
 
 struct OnboardingListView: View {
     let onboardingItems: [Onboarding]
+    var tintColor: Color = .blue
     var body: some View {
         VStack(alignment: .leading, spacing: 30) {
             ForEach(onboardingItems, id: \.self) { onboarding in
-                OnboardingRowView(onboarding: onboarding)
+                OnboardingRowView(onboarding: onboarding, tintColor: self.tintColor)
             }
         }.padding()
     }

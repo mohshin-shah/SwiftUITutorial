@@ -11,13 +11,14 @@ import SwiftUI
 struct OnboardingRowView: View {
     
     let onboarding: Onboarding
+    var tintColor: Color = .blue
     
     var body: some View {
         HStack(alignment: .center, spacing: 20) {
             Image(systemName: onboarding.imageName)
                 .resizable()
                 .frame(maxWidth: 60, maxHeight: 60)
-                .foregroundColor(.blue)
+                .foregroundColor(tintColor)
             VStack(alignment: .leading, spacing: 5) {
                 Text(onboarding.title)
                     .font(.headline)
