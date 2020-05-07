@@ -15,11 +15,11 @@ struct OnboadingActionView: View {
     var body: some View {
         Button(action: action) {
             Text(title)
-                .padding(EdgeInsets.init(top: 10, leading: 50, bottom: 10, trailing: 50))
+            .padding(EdgeInsets.init(top: 10, leading: 50, bottom: 10, trailing: 50))
+            .frame(minWidth: 0, maxWidth: .infinity)
             .background(tintColor)
             .foregroundColor(.white)
-                .font(.system(size: 18, weight: .semibold))
-            .fixedSize()
+                .font(.system(size: 18, weight: .semibold))            
             .cornerRadius(10)
         }
     }

@@ -15,15 +15,20 @@ struct OnboardingView: View {
     var actionItem: (title: String, action: () -> Void) = ("", {})
     
     var body: some View {
-        VStack() {
-            Spacer(minLength: 50)
-            Text(title)
-                .font(.title)
-            OnboardingListView(onboardingItems: onboardingItems, tintColor: tintColor)
+        VStack(alignment: .center, spacing: 50) {
             Spacer()
-            OnboadingActionView(title: actionItem.title, action: actionItem.action, tintColor: tintColor)
-            Spacer(minLength: 50)
+            OnboardingListView(
+                title: title,
+                onboardingItems: onboardingItems, tintColor: tintColor)
+            
+            OnboadingActionView(
+                title: actionItem.title,
+                action: actionItem.action,
+                tintColor: tintColor
+            )
+            Spacer()
         }
+        .padding(50)
     }
 }
 

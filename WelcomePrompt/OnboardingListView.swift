@@ -9,19 +9,23 @@
 import SwiftUI
 
 struct OnboardingListView: View {
+    let title: String
     let onboardingItems: [Onboarding]
     var tintColor: Color = .blue
     var body: some View {
-        VStack(alignment: .leading, spacing: 30) {
+        VStack(alignment: .leading, spacing: 40) {
+            Text(title)
+                .font(.title)
             ForEach(onboardingItems, id: \.self) { onboarding in
                 OnboardingRowView(onboarding: onboarding, tintColor: self.tintColor)
             }
-        }.padding()
+        }
     }
+
 }
 
 struct OnboardingContentView_Previews: PreviewProvider {
     static var previews: some View {
-        OnboardingListView(onboardingItems: [onboarding1])
+        OnboardingListView(title: "Welcome", onboardingItems: [onboarding1])
     }
 }

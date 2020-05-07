@@ -17,7 +17,7 @@ struct OnboardingRowView: View {
         HStack(alignment: .center, spacing: 20) {
             Image(systemName: onboarding.imageName)
                 .resizable()
-                .frame(maxWidth: 60, maxHeight: 60)
+                .frame(width: 30, height: 30)
                 .foregroundColor(tintColor)
             VStack(alignment: .leading, spacing: 5) {
                 Text(onboarding.title)

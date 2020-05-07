@@ -18,11 +18,11 @@ struct MainView: View {
                 Text("Show")
             }.sheet(isPresented: $showingDetail) {
                 OnboardingView(
-                    tintColor: Color(UIColor.random()),
-                        title: "What's new in Numbers",
+                    tintColor: Color(UIColor.systemBlue),
+                        title: "Welcome to \n App Store Connect",
                         onboardingItems: onboardingData,
                         actionItem: (
-                            title: "Continue",
+                            title: "Sign In",
                             {
                                 self.showingDetail.toggle()
                         })
